@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import ppic from "../public/pasfoto.jpeg";
+import Link from "next/link";
+import { FaGithubAlt } from "react-icons/fa";
+import { MdOutlineAlternateEmail } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -21,7 +24,21 @@ export default function Home() {
         </div>
         {/* name */}
         <div className="flex justify-center mt-4">
-          <h1 className=" text-neutral-300 font-bold text-4xl">Tomi</h1>
+          <Link href="/me" className=" text-neutral-300 font-bold text-4xl">
+            Tomi
+          </Link>
+        </div>
+        <div className="flex justify-center mt-4">
+          <p className="text-neutral-300">Hello and thanks for visiting! </p>
+        </div>
+        {/* socials */}
+        <div className="flex justify-center mt-4 gap-3">
+          <a href='https://github.com/yaelahtom'>
+            <FaGithubAlt color="white" size="22" />
+          </a>
+          <a href="mailto:amandipthandi@gmail.com">
+            <MdOutlineAlternateEmail color="white" size="22" />
+          </a>
         </div>
       </header>
       <br />

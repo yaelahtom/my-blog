@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import ppic from "../public/megif.gif";
+import ppic from "../public/pasfoto.jpeg";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           <Image
             src={ppic}
             alt="profile pic"
-            className="rounded border-4 border-neutral-300 bg-cover bg-center bg-no-repeat w-28 h-28 mt-24"
+            className="rounded border-4 border-neutral-300 bg-cover bg-center bg-no-repeat w-28 mt-24"
           />
         </div>
         {/* name */}

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { MdModeNight } from "react-icons/md";
 
 export default function Navbar() {

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ppic from "../public/pasfoto.jpeg";
 import Link from "next/link";
-import { FaGithubAlt } from "react-icons/fa";
+import { FaGithubAlt, FaSpotify } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
             Tomi
           </Link>
         </div>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-2">
           <p className="text-neutral-300">Hello and thanks for visiting! </p>
         </div>
         {/* socials */}
@@ -38,6 +38,9 @@ export default function Home() {
           </a>
           <a href="mailto:amandipthandi@gmail.com">
             <MdOutlineAlternateEmail color="white" size="22" />
+          </a>
+          <a href="https://open.spotify.com/user/0iiadr7t2y2iwloujsu5kqxar?si=3dddca2369a34785">
+            <FaSpotify color="white" size="22" />
           </a>
         </div>
       </header>

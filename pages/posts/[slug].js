@@ -37,12 +37,10 @@ const PostLayout = ({ post }) => {
           </time>
         </div>
         {/* body started */}
-        <div className="">
           <div
             className="cl-post-body text-neutral-300"
             dangerouslySetInnerHTML={{ __html: post.body.html }}
           />
-        </div>
       </article>
     </div>
   );

@@ -1,0 +1,18 @@
+{
+  "title": "Working with Burnout",
+  "date": "2022-03-12T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Working with Burnout\nAnother thing that affects me is burnout, which is honestly something I've been dealing with on and off for a long time. I have a lot of methods for managing it. Mostly I try to do my best to not look at code after 5pm on a workday, and I usually don't look at code at all on weekends.",
+    "html": "<h2>Working with Burnout</h2>\n<p>Another thing that affects me is burnout, which is honestly something I've been dealing with on and off for a long time. I have a lot of methods for managing it. Mostly I try to do my best to not look at code after 5pm on a workday, and I usually don't look at code at all on weekends.</p>"
+  },
+  "_id": "first-posts.md",
+  "_raw": {
+    "sourceFilePath": "first-posts.md",
+    "sourceFileName": "first-posts.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "first-posts"
+  },
+  "type": "Post",
+  "url": "/posts/first-posts"
+}

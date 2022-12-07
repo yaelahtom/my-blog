@@ -1,0 +1,73 @@
+{
+  "cacheItemsMap": {
+    "learn-react-navigation.md": {
+      "document": {
+        "title": "React Navigation Tutorial",
+        "date": "2022-03-12T00:00:00.000Z",
+        "body": {
+          "raw": "\n\n# React Navigation Tutorial\n\nReact Navigation is one of the best things that happened to [**React Native**](https://reactnative.org)\n\n## Benefits of using React Navigation\n\n1. It is cool to use\n2. It is simple to learn\n3. It has an extensive community\n4. And more and more\n",
+          "html": "<h1>React Navigation Tutorial</h1>\n<p>React Navigation is one of the best things that happened to <a href=\"https://reactnative.org\"><strong>React Native</strong></a></p>\n<h2>Benefits of using React Navigation</h2>\n<ol>\n<li>It is cool to use</li>\n<li>It is simple to learn</li>\n<li>It has an extensive community</li>\n<li>And more and more</li>\n</ol>"
+        },
+        "_id": "learn-react-navigation.md",
+        "_raw": {
+          "sourceFilePath": "learn-react-navigation.md",
+          "sourceFileName": "learn-react-navigation.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "learn-react-navigation"
+        },
+        "type": "Post",
+        "url": "/posts/learn-react-navigation"
+      },
+      "documentHash": "1670374936955",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "what-is-react-native.md": {
+      "document": {
+        "title": "What is React Native?",
+        "date": "2022-03-12T00:00:00.000Z",
+        "body": {
+          "raw": "\n# What is React Native?\n\nReact Native is a lovely language\n\n### React Native App Example:\n\n```js\nconst App = () => {\n  return (\n    <View>\n      <Text>Hello World Example</Text>\n    </View>\n  );\n};\n\nexport default App;\n```",
+          "html": "<h1>What is React Native?</h1>\n<p>React Native is a lovely language</p>\n<h3>React Native App Example:</h3>\n<pre><code class=\"language-js\">const App = () => {\n  return (\n    &#x3C;View>\n      &#x3C;Text>Hello World Example&#x3C;/Text>\n    &#x3C;/View>\n  );\n};\n\nexport default App;\n</code></pre>"
+        },
+        "_id": "what-is-react-native.md",
+        "_raw": {
+          "sourceFilePath": "what-is-react-native.md",
+          "sourceFileName": "what-is-react-native.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "what-is-react-native"
+        },
+        "type": "Post",
+        "url": "/posts/what-is-react-native"
+      },
+      "documentHash": "1670374915523",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "burnout.md": {
+      "document": {
+        "title": "Working with Burnout",
+        "date": "2022-03-12T00:00:00.000Z",
+        "body": {
+          "raw": "\nAnother thing that affects me is burnout, which is honestly something I've been dealing with on and off for a long time. I have a lot of methods for managing it. Mostly I try to do my best to not look at code after 5pm on a workday, and I usually don't look at code at all on weekends.\n\nOne thing I have is a confidence that I can jump into a new project or language or framework and learn whatever is necessary and relevant for me to succeed. I live by the mantra of \"You don't need to know anything\". You'll figure it out when you need to know it. This is not necessarily something that is tested in coding interviews, however.",
+          "html": "<p>Another thing that affects me is burnout, which is honestly something I've been dealing with on and off for a long time. I have a lot of methods for managing it. Mostly I try to do my best to not look at code after 5pm on a workday, and I usually don't look at code at all on weekends.</p>\n<p>One thing I have is a confidence that I can jump into a new project or language or framework and learn whatever is necessary and relevant for me to succeed. I live by the mantra of \"You don't need to know anything\". You'll figure it out when you need to know it. This is not necessarily something that is tested in coding interviews, however.</p>"
+        },
+        "_id": "burnout.md",
+        "_raw": {
+          "sourceFilePath": "burnout.md",
+          "sourceFileName": "burnout.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "burnout"
+        },
+        "type": "Post",
+        "url": "/posts/burnout"
+      },
+      "documentHash": "1670388632682",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "React Navigation Tutorial",
+  "date": "2022-03-12T00:00:00.000Z",
+  "body": {
+    "raw": "\n\n# React Navigation Tutorial\n\nReact Navigation is one of the best things that happened to [**React Native**](https://reactnative.org)\n\n## Benefits of using React Navigation\n\n1. It is cool to use\n2. It is simple to learn\n3. It has an extensive community\n4. And more and more\n",
+    "html": "<h1>React Navigation Tutorial</h1>\n<p>React Navigation is one of the best things that happened to <a href=\"https://reactnative.org\"><strong>React Native</strong></a></p>\n<h2>Benefits of using React Navigation</h2>\n<ol>\n<li>It is cool to use</li>\n<li>It is simple to learn</li>\n<li>It has an extensive community</li>\n<li>And more and more</li>\n</ol>"
+  },
+  "_id": "learn-react-navigation.md",
+  "_raw": {
+    "sourceFilePath": "learn-react-navigation.md",
+    "sourceFileName": "learn-react-navigation.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "learn-react-navigation"
+  },
+  "type": "Post",
+  "url": "/posts/learn-react-navigation"
+}

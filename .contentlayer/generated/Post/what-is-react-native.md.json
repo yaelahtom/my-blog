@@ -1,0 +1,18 @@
+{
+  "title": "What is React Native?",
+  "date": "2022-03-12T00:00:00.000Z",
+  "body": {
+    "raw": "\n# What is React Native?\n\nReact Native is a lovely language\n\n### React Native App Example:\n\n```js\nconst App = () => {\n  return (\n    <View>\n      <Text>Hello World Example</Text>\n    </View>\n  );\n};\n\nexport default App;\n```",
+    "html": "<h1>What is React Native?</h1>\n<p>React Native is a lovely language</p>\n<h3>React Native App Example:</h3>\n<pre><code class=\"language-js\">const App = () => {\n  return (\n    &#x3C;View>\n      &#x3C;Text>Hello World Example&#x3C;/Text>\n    &#x3C;/View>\n  );\n};\n\nexport default App;\n</code></pre>"
+  },
+  "_id": "what-is-react-native.md",
+  "_raw": {
+    "sourceFilePath": "what-is-react-native.md",
+    "sourceFileName": "what-is-react-native.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "what-is-react-native"
+  },
+  "type": "Post",
+  "url": "/posts/what-is-react-native"
+}

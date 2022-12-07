@@ -11,13 +11,16 @@ export default function Me() {
         {/* intro */}
         <div className="flex justify-start px-6 flex-col gap-4">
           <h1 className=" text-neutral-300 font-bold text-4xl">About me</h1>
-          <p className=" text-neutral-300 font-bold text-sm">
+          <p className=" text-neutral-300  text-sm">
             {`Hey, I'm Tomi!`} Welcome to my{" "}
-            <span className="text-green-400">digital garden.</span> 🌱
+            <span className="text-green-400">digital garden</span>. 🌱
           </p>
           <p className=" text-neutral-300 text-sm">
             {`I'm`} a backend developer in Malang, Indonesia. Currently working as a
             tester on Blockchain Node.
+          </p>
+          <p className=" text-neutral-300 text-sm">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nam, nobis consectetur dolor laborum delectus corrupti exercitationem possimus numquam voluptates accusantium ratione ea omnis illum at? Quidem nesciunt quae corporis?
           </p>
           <p className=" text-neutral-300 text-sm">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nam, nobis consectetur dolor laborum delectus corrupti exercitationem possimus numquam voluptates accusantium ratione ea omnis illum at? Quidem nesciunt quae corporis?

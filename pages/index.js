@@ -5,35 +5,10 @@ import Link from "next/link";
 import { FaGithubAlt, FaSpotify } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
-// import { compareDesc, format, parseISO } from "date-fns";
-// import { allPosts } from "contentlayer/generated";
-
-// export async function getStaticProps() {
-//   const posts = allPosts.sort((a, b) => {
-//     return compareDesc(new Date(a.date), new Date(b.date));
-//   });
-//   return { props: { posts } };
-// }
-
-// function PostCard(post) {
-//   return (
-//     <div className="mb-6">
-//       <time dateTime={post.date} className="block text-sm text-slate-600">
-//         {format(parseISO(post.date), 'LLLL d, yyyy')}
-//       </time>
-//       <h2 className="text-lg">
-//         <Link href={post.url}>
-//           <a className="text-blue-700 hover:text-blue-900">{post.title}</a>
-//         </Link>
-//       </h2>
-//     </div>
-//   )
-// }
-
 export default function Home({ post }) {
   return (
     // bg
-    <div className="bg-zinc-900 h-screen block">
+    <div className="bg-zinc-900 h-screen">
       <Head>
         <title>Tomi</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -75,7 +50,7 @@ export default function Home({ post }) {
       <div className="max-w-screen-sm px-6 mx-auto">
         <div className="border-t border-neutral-300"></div>
         {/* posts list */}
-        <div className="pt-12 first:pt-0">
+        <div className="pt-12">
           <Link className="text-neutral-300 font-bold text-xl hover:text-violet-400" href='posts/burnout'>
             Working with Burnout
           </Link>
@@ -85,7 +60,17 @@ export default function Home({ post }) {
           <a href="" className="leading-tight text-gray-900 dark:text-gray-100 inline-block border-b-1 border-gray-600 hover:text-gray-500 hover:border-gray-500 transition-colors underline">Read More</a>
         </div>
 
-        <div className="pt-12 first:pt-0">
+        <div className="pt-12">
+          <Link className="text-neutral-300 font-bold text-xl hover:text-violet-400" href=''>
+            Working with Burnout
+          </Link>
+          <p className="text-neutral-300 text-sm">31 Dec 2002</p>
+          <p className="mt-3 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto ullam blanditiis quidem quod excepturi doloremque libero quasi nobis, officia vel?</p>
+          <p className="mt-3"></p>
+          <a href="" className="leading-tight text-gray-900 dark:text-gray-100 inline-block border-b-1 border-gray-600 hover:text-gray-500 hover:border-gray-500 transition-colors underline">Read More</a>
+        </div>
+
+        <div className="pt-12">
           <Link className="text-neutral-300 font-bold text-xl hover:text-violet-400" href=''>
             Working with Burnout
           </Link>

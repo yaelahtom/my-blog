@@ -16,15 +16,16 @@ export default function Me() {
             <span className="text-green-400">digital garden</span>. 🌱
           </p>
           <p className=" text-neutral-300 text-sm">
-            {`I'm`} a backend developer in Malang, Indonesia. Currently working as a
-            tester on Blockchain Node.
+            {`I'm`} a backend developer in Indonesia. Currently working as a
+            validation blockchain engineer in <code>0xPetaniNode</code> team.
           </p>
           <p className=" text-neutral-300 text-sm">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nam, nobis consectetur dolor laborum delectus corrupti exercitationem possimus numquam voluptates accusantium ratione ea omnis illum at? Quidem nesciunt quae corporis?
+            This is not a diary. A diary is a personal, private thing that I don’t feel comfortable sharing with you, or maybe is it personal, but yet, still not a diary
           </p>
-          <p className=" text-neutral-300 text-sm">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nam, nobis consectetur dolor laborum delectus corrupti exercitationem possimus numquam voluptates accusantium ratione ea omnis illum at? Quidem nesciunt quae corporis?
-          </p>
+
+          <figure>
+            <embed src="https://wakatime.com/share/@santomi/ec9056b8-c394-4b81-93c8-76f8012c30d0.svg"></embed>
+          </figure>
         </div>
       </main>
     </div>

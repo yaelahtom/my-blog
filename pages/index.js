@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaGithubAlt, FaSpotify } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
-export default function Home({ post }) {
+export default function Home() {
   return (
     // bg
     <div className="bg-zinc-900 min-h-screen">
@@ -18,8 +18,9 @@ export default function Home({ post }) {
         <div className="flex items-center justify-center">
           <Image
             src={ppic}
-            alt="profile pic"
+            alt="gw si author"
             className="rounded border-4 border-neutral-300 bg-cover bg-center bg-no-repeat w-28 mt-24"
+            placeholder="blur"
           />
         </div>
         {/* name */}
@@ -29,7 +30,7 @@ export default function Home({ post }) {
           </Link>
         </div>
         <div className="flex justify-center mt-2">
-          <p className="text-neutral-300">Hello and thanks for visiting! </p>
+          <p className="text-neutral-300 animate-pulse">Hello and thanks for visiting! </p>
         </div>
         {/* socials */}
         <div className="flex justify-center mt-4 gap-5">
@@ -45,7 +46,6 @@ export default function Home({ post }) {
         </div>
       </header>
       <br />
-      <br />
       {/* line */}
       <div className="max-w-screen-sm px-6 mx-auto">
         <div className="border-t border-neutral-300"></div>
@@ -55,9 +55,7 @@ export default function Home({ post }) {
             Working with Burnout
           </Link>
           <p className="text-neutral-300 text-sm">31 Dec 2002</p>
-          <p className="mt-3 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto ullam blanditiis quidem quod excepturi doloremque libero quasi nobis, officia vel?</p>
-          <p className="mt-3"></p>
-          <a href="" className="leading-tight text-gray-900 dark:text-gray-100 inline-block border-b-1 border-gray-600 hover:text-gray-500 hover:border-gray-500 transition-colors underline">Read More</a>
+          <p className="mt-3 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto ullam blanditiis quidem quod excepturi doloremque libero quasi nobis, officia vel?</p>
         </div>
 
         <div className="pt-12">

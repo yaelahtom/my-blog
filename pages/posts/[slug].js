@@ -29,18 +29,19 @@ const PostLayout = ({ post }) => {
         <title>{post.title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <article className="pt-20 prose prose-headings:text-neutral-300 px-6">
-        <div className="mb-10 ">
-          <h1 className="text-neutral-300 font-bold text-4xl">{post.title}</h1>
-          <time dateTime={post.date} className="text-sm text-slate-600">
-            {format(parseISO(post.date), "LLLL d, yyyy")}
-          </time>
-        </div>
+      <div className="mb-10 pt-20 px-6 mx-auto">
+        <h1 className="text-neutral-300 font-bold text-4xl">{post.title}</h1>
+        <time dateTime={post.date} className="text-sm text-slate-600">
+          {format(parseISO(post.date), "LLLL d, yyyy")}
+        </time>
+      </div>
+      {/* article started */}
+      <article className="prose prose-headings:text-neutral-300 px-6 mx-auto">
         {/* body started */}
-          <div
-            className="cl-post-body text-neutral-300"
-            dangerouslySetInnerHTML={{ __html: post.body.html }}
-          />
+        <div
+          className="cl-post-body text-neutral-300"
+          dangerouslySetInnerHTML={{ __html: post.body.html }}
+        />
       </article>
     </div>
   );

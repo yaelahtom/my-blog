@@ -26,10 +26,6 @@ export default function HomeBlog() {
               <code className="ml-auto text-green-400">Dec 03</code>
             </a>
             <a href="" className="text-neutral-300 flex">
-              <p className="">What is React Native</p>
-              <code className="ml-auto text-green-400">Dec 04</code>
-            </a>
-            <a href="" className="text-neutral-300 flex">
               <p className="">Learn React Navigation</p>
               <code className="ml-auto text-green-400">Dec 04</code>
             </a>

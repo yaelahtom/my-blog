@@ -11,6 +11,7 @@ export default function Me() {
         {/* intro */}
         <div className="flex justify-start px-6 flex-col gap-4">
           <h1 className=" text-neutral-300 font-bold text-4xl">My projects</h1>
+          <p className=" text-neutral-300 text-sm">bingung</p>
         </div>
       </main>
     </div>

@@ -55,27 +55,10 @@ export default function Home() {
             Working with Burnout
           </Link>
           <p className="text-neutral-300 text-sm">31 Dec 2002</p>
-          <p className="mt-3 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto ullam blanditiis quidem quod excepturi doloremque libero quasi nobis, officia vel?</p>
-        </div>
-
-        <div className="pt-12">
-          <Link className="text-neutral-300 font-bold text-xl hover:text-violet-400" href=''>
-            Working with Burnout
-          </Link>
-          <p className="text-neutral-300 text-sm">31 Dec 2002</p>
-          <p className="mt-3 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto ullam blanditiis quidem quod excepturi doloremque libero quasi nobis, officia vel?</p>
-          <p className="mt-3"></p>
-          <a href="" className="leading-tight text-gray-900 dark:text-gray-100 inline-block border-b-1 border-gray-600 hover:text-gray-500 hover:border-gray-500 transition-colors underline">Read More</a>
-        </div>
-
-        <div className="pt-12">
-          <Link className="text-neutral-300 font-bold text-xl hover:text-violet-400" href=''>
-            Working with Burnout
-          </Link>
-          <p className="text-neutral-300 text-sm">31 Dec 2002</p>
-          <p className="mt-3 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto ullam blanditiis quidem quod excepturi doloremque libero quasi nobis, officia vel?</p>
-          <p className="mt-3"></p>
-          <a href="" className="leading-tight text-gray-900 dark:text-gray-100 inline-block border-b-1 border-gray-600 hover:text-gray-500 hover:border-gray-500 transition-colors underline">Read More</a>
+          <p className="mt-3 text-neutral-500">Thing that affects me the most is burnout, which is honestly something I've been dealing with on and off for a long time.
+          </p>
+          <p className="mt-2"></p>
+          <a href="posts/burnout" className="leading-tight text-neutral-300 inline-block border-b border-gray-600 hover:text-neutral-500 hover:border-neutral-500 transition-colors">Read More</a>
         </div>
       </div>
     </div>

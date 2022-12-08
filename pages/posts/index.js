@@ -15,7 +15,7 @@ export default function HomeBlog() {
           {/* post list */}
           <div className="flex flex-col gap-2 mt-2">
             <Link href="/posts/burnout" className="text-neutral-300 flex">
-              <p className="">Working with Burnout</p>
+              <p className="hover:bg-blue-500 hover:underline">Working with Burnout</p>
               <code className="ml-auto text-green-400">Dec 03</code>
             </Link>
             <a href="" className="text-neutral-300 flex">
@@ -27,7 +27,7 @@ export default function HomeBlog() {
               <code className="ml-auto text-green-400">Dec 03</code>
             </a>
             <Link href="posts/piracy-megathread" className="text-neutral-300 flex">
-              <p className="">Piracy: Megathread</p>
+              <p className="hover:bg-blue-500 hover:underline">Piracy: Megathread</p>
               <code className="ml-auto text-green-400">Dec 05</code>
             </Link>
             <a href="" className="text-neutral-300 flex">
@@ -35,7 +35,7 @@ export default function HomeBlog() {
               <code className="ml-auto text-green-400">Dec 06</code>
             </a>
             <Link href="/posts/markdown" className="text-neutral-300 flex">
-              <p className="">Markdown</p>
+              <p className="hover:bg-blue-500 hover:underline">Markdown</p>
               <code className="ml-auto text-green-400">Dec 07</code>
             </Link>
           </div>

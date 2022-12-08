@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
 
 const PostLayout = ({ post }) => {
   return (
-    <div className="bg-zinc-900">
+    <div className="bg-zinc-900 min-h-screen">
       <Head>
         <title>{post.title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -36,7 +36,7 @@ const PostLayout = ({ post }) => {
         </time>
       </div>
       {/* article started */}
-      <article className="prose prose-invert px-6 mx-auto min-h-screen">
+      <article className="prose prose-invert px-6 mx-auto min-h-screen bg-zinc-900">
         {/* body started */}
         <div
           className="cl-post-body text-neutral-300"

@@ -55,10 +55,10 @@ export default function Home() {
             Working with Burnout
           </Link>
           <p className="text-neutral-300 text-sm">31 Dec 2002</p>
-          <p className="mt-3 text-neutral-500">Thing that affects me the most is burnout, which is honestly something I've been dealing with on and off for a long time.
+          <p className="mt-3 text-neutral-500">Thing that affects me the most is burnout, which is honestly something I&apos;ve been dealing with on and off for a long time.
           </p>
           <p className="mt-2"></p>
-          <a href="posts/burnout" className="leading-tight text-neutral-300 inline-block border-b border-gray-600 hover:text-neutral-500 hover:border-neutral-500 transition-colors">Read More</a>
+          <Link href="posts/burnout" className="leading-tight text-neutral-300 inline-block border-b border-gray-600 hover:text-neutral-500 hover:border-neutral-500 transition-colors">Read More</Link>
         </div>
       </div>
     </div>

@@ -8,14 +8,14 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 export default function Home() {
   return (
     // bg
-    <div className="bg-zinc-900 min-h-screen">
+    <div className="bg-zinc-900 min-h-screen mx-auto max-w-screen-sm">
       <Head>
         <title>Tomi</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <header className="max-w-screen-sm px-6 mx-auto">
+      <header className="max-w-screen-sm mx-auto">
         {/* image ppic */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center ">
           <Image
             src={ppic}
             alt="gw si author"
@@ -54,11 +54,22 @@ export default function Home() {
           <Link className="text-neutral-300 font-bold text-xl hover:text-violet-400" href='posts/burnout'>
             Working with Burnout
           </Link>
-          <p className="text-neutral-300 text-sm">31 Dec 2002</p>
+          <p className="text-neutral-300 text-sm">December 3, 2022</p>
           <p className="mt-3 text-neutral-500">Thing that affects me the most is burnout, which is honestly something I&apos;ve been dealing with on and off for a long time.
           </p>
           <p className="mt-2"></p>
           <Link href="posts/burnout" className="leading-tight text-neutral-300 inline-block border-b border-gray-600 hover:text-neutral-500 hover:border-neutral-500 transition-colors">Read More</Link>
+        </div>
+
+        <div className="pt-12">
+          <Link className="text-neutral-300 font-bold text-xl hover:text-violet-400" href='posts/the-zone-of-optimal-learning'>
+            The Zone of Optimal Learning
+          </Link>
+          <p className="text-neutral-300 text-sm">December 10, 2022</p>
+          <p className="mt-3 text-neutral-500">A key strategy for getting better at things is hill-climbing. The idea is simple: try different things, keep doing the things that work, stop doing those that don&apos;t.
+          </p>
+          <p className="mt-2"></p>
+          <Link href="posts/the-zone-of-optimal-learning" className="leading-tight text-neutral-300 inline-block border-b border-gray-600 hover:text-neutral-500 hover:border-neutral-500 transition-colors">Read More</Link>
         </div>
       </div>
     </div>

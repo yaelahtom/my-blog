@@ -3,5 +3,6 @@
 import burnoutMd from './burnout.md.json' assert { type: 'json' }
 import markdownMd from './markdown.md.json' assert { type: 'json' }
 import piracyMegathreadMd from './piracy-megathread.md.json' assert { type: 'json' }
+import theZoneOfOptimalLearningMd from './the-zone-of-optimal-learning.md.json' assert { type: 'json' }
 
-export const allPosts = [burnoutMd, markdownMd, piracyMegathreadMd]
+export const allPosts = [burnoutMd, markdownMd, piracyMegathreadMd, theZoneOfOptimalLearningMd]

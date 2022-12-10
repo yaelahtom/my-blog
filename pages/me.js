@@ -2,12 +2,12 @@ import Head from "next/head";
 
 export default function Me() {
   return (
-    <div className="bg-zinc-900 min-h-screen">
+    <div className="bg-zinc-900 min-h-screen max-w-screen-sm mx-auto">
       <Head>
         <title>About Me | Tomi</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <main className="pt-20">
+      <main className="pt-20 lg:pt-8">
         {/* intro */}
         <div className="flex justify-start px-6 flex-col gap-2">
           <h1 className=" text-neutral-300 font-bold text-4xl">About me</h1>

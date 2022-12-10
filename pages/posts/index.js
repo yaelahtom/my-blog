@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export default function HomeBlog() {
   return (
-    <div className="bg-zinc-900 h-screen">
+    <div className="bg-zinc-900 min-h-screen max-w-screen-sm mx-auto">
       <Head>
         <title>Writing | Tomi</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <main className="pt-20">
+      <main className="pt-20 lg:pt-8">
         {/* intro */}
         <div className="flex justify-start px-6 flex-col gap-4">
           <h1 className=" text-neutral-300 font-bold text-4xl">Writing</h1>
@@ -37,6 +37,10 @@ export default function HomeBlog() {
             <Link href="/posts/markdown" className="text-neutral-300 flex">
               <p className="hover:bg-blue-500 hover:underline">Markdown</p>
               <code className="ml-auto text-green-400">Dec 07</code>
+            </Link>
+            <Link href="/posts/the-zone-of-optimal-learning" className="text-neutral-300 flex">
+              <p className="hover:bg-blue-500 hover:underline">The Zone of Optimal Learning</p>
+              <code className="ml-auto text-green-400">Dec 10</code>
             </Link>
           </div>
         </div>

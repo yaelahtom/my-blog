@@ -23,14 +23,29 @@ export default function Me() {
             My only motivation for making this site is since i love to take a note or documented all my life problem into a structured one, why i just dont document in my portfolio instead?
             This will contain my thoughts and whatever i insist to write about things that i learned thru the world.
           </p>
-          <br/>
+          <br />
+          <h2 className="text-neutral-300 font-bold text-xl border-b-neutral-300 border-b">
+            Skills
+          </h2>
+          <p className=" text-neutral-300 text-sm ">
+            Languages: <code className="text-green-400">Javascript, Node.js, PHP, HTML, CSS.</code>
+          </p>
+          <p className=" text-neutral-300 text-sm">
+            Frameworks: <code className="text-green-400">Next.js, React.js, Tailwind, Bootstrap, Express.js, Hapi.js, Vite.</code>
+          </p>
+          <p className=" text-neutral-300 text-sm">
+            Databases: <code className="text-green-400">MongoDB, MySQL, Firebase.</code>
+          </p>
+          <p className=" text-neutral-300 text-sm ">
+            Miscellaneous: <code className="text-green-400">Linux, GIT Version Control, Design Pattern, PM2+.</code>
+          </p>
           <h2 className="text-neutral-300 font-bold text-xl border-b-neutral-300 border-b">
             About this site
           </h2>
           <p className=" text-neutral-300 text-sm">
-            This is not a diary or maybe this is a diary. A diary is a personal, private thing that I don’t feel comfortable sharing with you, I would state this site as a portfolio but in a way will contain diary as a self-reflection. In compendium this is a <span className="text-green-400">digital garden</span> 🌱.
+            This is not a diary or maybe this is a diary. A diary is a personal, private thing that I don&apos;t feel comfortable sharing with you, I would state this site as a portfolio but in a way will contain diary as a self-reflection. In compendium this is a <span className="text-green-400">digital garden</span> 🌱.
           </p>
-          <br/>
+          <br />
           <h2 className="text-neutral-300 font-bold text-xl border-b-neutral-300 border-b">
             My coding stats
           </h2>

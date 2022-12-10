@@ -26,7 +26,7 @@ Bjork argues that the benefits come from the difference between [storage strengt
 ![img](https://pocket-image-cache.com//filters:format(jpg):extract_focal()/https%3A%2F%2Fmiro.medium.com%2Fmax%2F1400%2F0*Dv1ImmYtEkZCN33O.jpg)
 
 This theory says that successful access to hard-to-recall memory boosts retrieval strength more than if the memory was easier to access. It’s as if your brain is saying, 
-> “Whoa! That was important and I barely remembered it! Better strengthen that connection.”
+> Whoa! That was important and I barely remembered it! Better strengthen that connection.
 
 Easy memory access (say because you just immediately learned it or had the answer in front of you) sends the opposite signal, with correspondingly less benefit.
 

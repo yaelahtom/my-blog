@@ -16,12 +16,7 @@ export default function Me() {
             <span className="text-green-400">digital garden</span>. 🌱
           </p>
           <p className=" text-neutral-300 text-sm">
-            {`I'm`} a backend developer in Indonesia. Currently working as a
-            validation blockchain engineer in <code>0xPetaniNode</code> team.
-          </p>
-          <p className="text-neutral-300 text-sm">
-            My only motivation for making this site is since i love to take a note or documented all my life problem into a structured one, why i just dont document in my portfolio instead?
-            This will contain my thoughts and whatever i insist to write about things that i learned thru the world.
+            {`I'm`} a backend developer in Indonesia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eaque.
           </p>
           <br />
           <h2 className="text-neutral-300 font-bold text-xl border-b-neutral-300 border-b">
@@ -43,7 +38,7 @@ export default function Me() {
             About this site
           </h2>
           <p className=" text-neutral-300 text-sm">
-            This is not a diary or maybe this is a diary. A diary is a personal, private thing that I don&apos;t feel comfortable sharing with you, I would state this site as a portfolio but in a way will contain diary as a self-reflection. In compendium this is a <span className="text-green-400">digital garden</span> 🌱.
+            This is not a diary or maybe this is a diary. A diary is a personal, private thing that I don&apos;t feel comfortable sharing with you. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam totam commodi debitis cupiditate nihil eos iste qui vitae fugiat minus?
           </p>
           <br />
           <h2 className="text-neutral-300 font-bold text-xl border-b-neutral-300 border-b">

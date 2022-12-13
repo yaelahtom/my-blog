@@ -55,7 +55,7 @@ export default function Home() {
             Working with Burnout
           </Link>
           <p className="text-neutral-300 text-sm">December 3, 2022</p>
-          <p className="mt-3 text-neutral-500">Thing that affects me the most is burnout, which is honestly something I&apos;ve been dealing with on and off for a long time.
+          <p className="mt-3 text-neutral-500">I&apos;ve been dealing with on and off for a long time.
           </p>
           <p className="mt-2"></p>
           <Link href="posts/burnout" className="leading-tight text-neutral-300 inline-block border-b border-gray-600 hover:text-neutral-500 hover:border-neutral-500 transition-colors">Read More</Link>

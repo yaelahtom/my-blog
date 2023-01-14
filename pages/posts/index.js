@@ -35,7 +35,7 @@ export default function HomeBlog() {
               <code className="ml-auto text-green-400">Dec 06</code>
             </a>
             <Link href="/posts/markdown" className="text-neutral-300 flex">
-              <p className="hover:bg-blue-500 hover:underline">Markdown</p>
+              <p className="hover:bg-blue-500 hover:underline">Markdown Cheatsheet</p>
               <code className="ml-auto text-green-400">Dec 07</code>
             </Link>
             <Link href="/posts/the-zone-of-optimal-learning" className="text-neutral-300 flex">

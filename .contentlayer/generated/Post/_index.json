@@ -18,11 +18,11 @@
     "url": "/posts/burnout"
   },
   {
-    "title": "Markdown",
+    "title": "Markdown Cheatsheet",
     "date": "2022-12-07T00:00:00.000Z",
     "body": {
-      "raw": "\n## Header \nContent\n\n> Quote\n\n## Subheading\n\nhere is a [title]​(https://ripped.guide)\n\nhere is *italic text*\n\nhere is **bold text**\n\nhere is **_italic and bold text_**\n\nhere is an unordered list:\n\n- item 1\n- item 2\n\nhere is an ordered list:\n\n1. item 1\n2. item 2\n3. ads",
-      "html": "<h2>Header</h2>\n<p>Content</p>\n<blockquote>\n<p>Quote</p>\n</blockquote>\n<h2>Subheading</h2>\n<p>here is a [title]​(https://ripped.guide)</p>\n<p>here is <em>italic text</em></p>\n<p>here is <strong>bold text</strong></p>\n<p>here is <strong><em>italic and bold text</em></strong></p>\n<p>here is an unordered list:</p>\n<ul>\n<li>item 1</li>\n<li>item 2</li>\n</ul>\n<p>here is an ordered list:</p>\n<ol>\n<li>item 1</li>\n<li>item 2</li>\n<li>ads</li>\n</ol>"
+      "raw": "\nHeading\n---\n` # = h1 `\n\n` ## = h2 `\n\n` ### = h3 `\n\nBold\n---\n` *** bold text *** `\n\nItalic\n---\n` *italicized text* `\n\nBlockquote\n---\n` > blockquote `\n\nOrdered List\n---\n`1. First item`\n\n`2. Second item`\n\n`3. Third item`\n\nUnordered List\n---\n` - First item `\n\n` - Second item `\n\n` - Third item `\n\nCode\n---\n`Code`\n\nHorizontal Rule\n---\n`---`\n\nLink\n---\n` [title](https://my-blog-yaelahtom.vercel.app/) `\n\nImage\n---\n` ![alt text](image.jpg) `",
+      "html": "<h2>Heading</h2>\n<p><code># = h1</code></p>\n<p><code>## = h2</code></p>\n<p><code>### = h3</code></p>\n<h2>Bold</h2>\n<p><code>*** bold text ***</code></p>\n<h2>Italic</h2>\n<p><code>*italicized text*</code></p>\n<h2>Blockquote</h2>\n<p><code>> blockquote</code></p>\n<h2>Ordered List</h2>\n<p><code>1. First item</code></p>\n<p><code>2. Second item</code></p>\n<p><code>3. Third item</code></p>\n<h2>Unordered List</h2>\n<p><code>- First item</code></p>\n<p><code>- Second item</code></p>\n<p><code>- Third item</code></p>\n<h2>Code</h2>\n<p><code>Code</code></p>\n<h2>Horizontal Rule</h2>\n<p><code>---</code></p>\n<h2>Link</h2>\n<p><code>[title](https://my-blog-yaelahtom.vercel.app/)</code></p>\n<h2>Image</h2>\n<p><code>![alt text](image.jpg)</code></p>"
     },
     "_id": "markdown.md",
     "_raw": {

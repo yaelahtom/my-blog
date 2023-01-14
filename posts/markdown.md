@@ -1,30 +1,56 @@
 ---
-title: Markdown
+title: Markdown Cheatsheet
 date: '2022-12-07'
 ---
 
-## Header 
-Content
+Heading
+---
+` # = h1 `
 
-> Quote
+` ## = h2 `
 
-## Subheading
+` ### = h3 `
 
-here is a [title]​(https://ripped.guide)
+Bold
+---
+` *** bold text *** `
 
-here is *italic text*
+Italic
+---
+` *italicized text* `
 
-here is **bold text**
+Blockquote
+---
+` > blockquote `
 
-here is **_italic and bold text_**
+Ordered List
+---
+`1. First item`
 
-here is an unordered list:
+`2. Second item`
 
-- item 1
-- item 2
+`3. Third item`
 
-here is an ordered list:
+Unordered List
+---
+` - First item `
 
-1. item 1
-2. item 2
-3. ads
+` - Second item `
+
+` - Third item `
+
+Code
+---
+`Code`
+
+Horizontal Rule
+---
+`---`
+
+Link
+---
+` [title](https://my-blog-yaelahtom.vercel.app/) `
+
+Image
+---
+` ![alt text](image.jpg) `
